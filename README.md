@@ -45,26 +45,6 @@ Once you have the project running, you can explore the different sections of the
 - **Projects:** Showcase of my projects with details and links.
 - **Contact:** Contact Information for reaching out me.
 
-Feel free to customize the content and styling to suit your personal branding and preferences.
-
-## Contributing
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
-
-1. Fork the repository
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/your-feature
-    ```
-5. Open a pull request
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
