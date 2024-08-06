@@ -18,14 +18,14 @@ This portfolio website serves as a personal showcase for my projects, skills, an
 - **Responsive Design:** The website is fully responsive and looks great on all devices.
 - **Interactive Elements:** Smooth scrolling, animated sections, and hover effects for an engaging user experience.
 - **Project Showcase:** Displays my projects with descriptions, technologies used, and links to live demos and repositories.
-- **Contact Form:** Allows visitors to get in touch with me directly through the website.
+- **Contact Form:** Contact Infromation for reaching out to me.
 
 ## Installation
 To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/portfolio-website.git
+    git clone [https://github.com/yourusername/portfolio-website.git](https://github.com/Sayantanpaul96/PortFolio-Webiste.git)
     ```
 2. Navigate to the project directory:
     ```bash
@@ -43,7 +43,7 @@ Once you have the project running, you can explore the different sections of the
 - **Home:** Introduction and a brief overview.
 - **About Me:** Information about my background, skills, and experience.
 - **Projects:** Showcase of my projects with details and links.
-- **Contact:** A form for visitors to reach out to me.
+- **Contact:** Contact Information for reaching out me.
 
 Feel free to customize the content and styling to suit your personal branding and preferences.
 
@@ -71,8 +71,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me:
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com)
-- **GitHub:** [Your GitHub Profile](https://www.github.com)
+- **Email:** paulsayantan96@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sayantan-paul-831558122/)
 
 Thank you for visiting my portfolio website!
