@@ -52,6 +52,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 If you have any questions or suggestions, feel free to reach out to me:
 
 - **Email:** paulsayantan96@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sayantan-paul-831558122/)
+- **LinkedIn:** [Sayantan Paul](https://www.linkedin.com/in/sayantan-paul-831558122/)
 
 Thank you for visiting my portfolio website!
