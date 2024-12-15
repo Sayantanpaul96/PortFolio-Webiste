@@ -526,11 +526,13 @@ h3 {
           overflow: hidden;
           background-color: var(--base-100);
           border-radius: 5px;
+          .learn-more {
+            display: flex;
+            flex: 1
+            justify-content: flex-start;
+            align-items: center;
+          }
         }
-      }
-      .professional-projects {
-      }
-      .personal-projects {
       }
     }
   }
