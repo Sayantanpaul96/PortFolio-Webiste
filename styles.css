@@ -10,17 +10,17 @@
 :root {
   --temp: rgba(27, 23, 18, 0.447);
   --base: #555;
-  --base-100: #f1f1f1d1;
+  --base-100: #f1f1f1;
   --base-800: #000;
-  --base-canvas: #07070741;
-  --yellow: #ffdb4bdd;
-  --yellow-100: #fffbe6d7;
-  --yellow-400: #ffdb4bd8;
-  --yellow-800: rgba(139, 111, 0, 0.861);
-  --blue: #0a61aed3;
-  --blue-100: #e2f8ffcf;
-  --blue-400: #61dafbd4;
-  --blue-800: #0a61aed1;
+  --base-canvas: #0707071e;
+  --yellow: #ffdb4bf3;
+  --yellow-100: #fffbe6f6;
+  --yellow-400: #ffdb4bf1;
+  --yellow-800: rgba(139, 111, 0, 0.945);
+  --blue: #0a61aef1;
+  --blue-100: #e2f8fff2;
+  --blue-400: #61dafbee;
+  --blue-800: #0a61aef1;
 }
 
 canvas {
@@ -317,7 +317,7 @@ h1 {
   }
   .marquee {
     width: 100vw;
-    max-width: 100%;
+    max-width: 101%;
     height: 128px;
     overflow: hidden;
     border-radius: 30px;
