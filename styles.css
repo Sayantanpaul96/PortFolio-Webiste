@@ -8,17 +8,28 @@
 }
 /* change color here to change in the application. */
 :root {
+  --temp: rgba(27, 23, 18, 0.447);
   --base: #555;
-  --base-100: #f1f1f1;
+  --base-100: #f1f1f1d1;
   --base-800: #000;
-  --yellow: #ffda4b;
-  --yellow-100: #fffbe6;
-  --yellow-400: #ffda4b;
-  --yellow-800: rgb(139, 111, 0);
-  --blue: #0a61ae;
-  --blue-100: #e2f8ff;
-  --blue-400: #61dafb;
-  --blue-800: #0a61ae;
+  --base-canvas: #07070741;
+  --yellow: #ffdb4bdd;
+  --yellow-100: #fffbe6d7;
+  --yellow-400: #ffdb4bd8;
+  --yellow-800: rgba(139, 111, 0, 0.861);
+  --blue: #0a61aed3;
+  --blue-100: #e2f8ffcf;
+  --blue-400: #61dafbd4;
+  --blue-800: #0a61aed1;
+}
+
+canvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(transparent, var(--base-canvas));
+  z-index: -1;
 }
 
 body {
@@ -309,6 +320,7 @@ h1 {
     max-width: 100%;
     height: 128px;
     overflow: hidden;
+    border-radius: 30px;
     position: relative;
     .track {
       position: absolute;
