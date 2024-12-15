@@ -135,6 +135,9 @@ window.addEventListener('mouseout', () => {
     mouse.y = undefined;
 });
 
+initialiseParticles();
+animate();
+
 
 
 
