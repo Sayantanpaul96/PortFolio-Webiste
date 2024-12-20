@@ -12,7 +12,7 @@
   --base: #555;
   --base-100: #f1f1f1;
   --base-800: #000;
-  --base-canvas: #0707071e;
+  --base-canvas: #5151511e;
   --yellow: #ffdb4bf3;
   --yellow-100: #fffbe6f6;
   --yellow-400: #ffdb4bf1;
@@ -580,12 +580,14 @@ h3 {
     @media (max-width: 1024px) {
       flex-direction: column;
     }
+    .personal-project-info, .professional-projects-info {
+      flex: 1;
+    }
     article {
       background-color: var(--yellow-100);
       padding: 30px;
       border-radius: 30px;
       border-radius: 30px;
-      flex: 1;
       .collapsible {
         padding-bottom: 10px;
         flex-wrap: wrap;
@@ -605,18 +607,19 @@ h3 {
           /* font-size: 16px; */
         }
         .collapsible-header:after {
-          content: "\002B"; /* Unicode character for "+" sign */
+          content: "\002B"; /* "+" sign */
           font-size: 16px;
           color: var(--base-800);
           float: right;
         }
         .collapsible-header.active:after {
-          content: "\2212"; /* Unicode character for "-" sign */
+          content: "\2212"; /* "-" sign */
           font-size: 13px;
         }
         .collapsible-content {
-          padding: 10px 10px 10px;
-          display: none;
+          padding: 0;
+          max-height: 0;
+          transition: max-height 0.3s ease, padding 0.3s ease;
           overflow: hidden;
           text-align: justify;
           background-color: var(--base-100);

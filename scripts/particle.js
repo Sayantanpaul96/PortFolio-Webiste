@@ -10,7 +10,7 @@ let particleArray;
 let mouse = {
     x: null,
     y: null,
-    radius: (canvas.height/140) * (canvas.width/140)
+    radius: (canvas.height/300) * (canvas.width/300)
 }
 
 window.addEventListener('mousemove', (event) => {
@@ -49,17 +49,17 @@ class Particle {
         
         if(distance < mouse.radius + this.size) {
             if(mouse.x < this.x && this.x < canvas.width - this.size * 10) {
-                this.x +=10;
+                this.x +=5;
             }
             if(mouse.x > this.x && this.x > this.size * 10) {
-                this.x -=10;
+                this.x -=5;
             }
 
             if(mouse.y < this.y && this.y < canvas.height - this.size * 10) {
-                this.y +=10;
+                this.y +=5;
             }
             if(mouse.y > this.y && this.y > this.size * 10) {
-                this.y -=10;
+                this.y -=5;
             }
         }
         // move particle
@@ -73,7 +73,7 @@ class Particle {
 function initialiseParticles() {
     particleArray = [];
     // reduce number of particles here.
-    let numberOfParticles = (canvas.height * canvas.width) / 10000;
+    let numberOfParticles = (canvas.height * canvas.width) / 13000;
 
     for(let i = 0; i < numberOfParticles; i++) {
         let size = (Math.random() * 5) + 1;
@@ -125,7 +125,7 @@ function animate() {
 window.addEventListener('resize', () => {
     canvas.width = innerWidth;
     canvas.height = innerHeight;
-    mouse.radius = ((canvas.height/140) * (canvas.width/140));
+    mouse.radius = ((canvas.height/300) * (canvas.width/300));
     initialiseParticles();
 });
 
@@ -137,7 +137,3 @@ window.addEventListener('mouseout', () => {
 
 initialiseParticles();
 animate();
-
-
-
-
