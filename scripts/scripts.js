@@ -34,3 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
     setupCollapsible(".professional-projects");
     setupCollapsible(".personal-projects");
   });
+  

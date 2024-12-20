@@ -137,7 +137,3 @@ window.addEventListener('mouseout', () => {
 
 initialiseParticles();
 animate();
-
-
-
-
